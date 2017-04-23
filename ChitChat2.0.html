@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ChitChat 2.0</title>
+	<link rel="icon" href="https://cdn4.iconfinder.com/data/icons/alphabet-3/500/ABC_alphabet_letter_font_graphic_language_text_R-512.png">
+	<link type="text/css" rel="stylesheet" href="ChitChat.css"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="jquery-3.0.0.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="ChitChat.js"></script>
+
+
+
+
+</head>
+<body>
+<div id="third">
+<div id="transp"></div>
+	<div class="msgAreaback"></div>
+	<div id="div2">
+		<img src="https://cdn4.iconfinder.com/data/icons/alphabet-3/500/ABC_alphabet_letter_font_graphic_language_text_R-512.png" id="logo"/>
+		<p style="float:left;color:white;test-align:center;width:200px;margin-left:30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&reg; <b>ChitChat 2.0</b></p>
+		<p id="header" style="margin-left:41%;"><marquee>Welcome to ChitChat Messenger</marquee></p>
+	</div>
+	<div id="div3"></div>
+	<div id="div4"><p id="copyright"><b>&copy; Rahul Mourya Pvt. Ltd.</b></p></div>
+	<div id="left" class="msg">
+		<b style="color:white;">User id: </b><p id="person1" class="per1" style="color:white;">Person 1 </p><p id="hin" class="per1"><b>&nbsp;&nbsp;Hint!</b></p>
+		<input title="Message Box" type="text" class="textIn" id="ltext" name="lmessenger" placeholder="Type a message"/>
+		<button id="lb" class="tb">Send</button>
+		<input type="text" class="textIn" id="lURL" name="lurl" title="Enter Image URL" placeholder="Image URL..."/>
+		<!--<br></br>-->
+		<input type="file" class="ib" name="lpic" required="required" accept="image/*"/>
+		<button id="lib" class="ib">Send Image</button>
+	</div>
+	<div id="right" class="msg">
+		<p>Chat Tester <b id="hin2">Hint!</b></p>
+		<input title="Message Box" type="text" class="textIn" id="rtext" name="rmessenger"  placeholder="Type a message"/>
+		<button id="rb" class="tb">Send</button>
+		<input type="text" class="textIn" id="rURL" name="rurl" title="Enter Image URL" placeholder="Image URL..."/>
+		<!--<br></br>-->
+		<input type="file" class="ib" name="rpic" required="required" accept="image/*"/>
+		<button id="rib" class="ib">Send Image</button>
+	</div>
+	<div class="msgArea">
+		<p class="histo"><span id="span">*</span> <span id="span">*</span> <span id="span">*</span> <span id="span">H</span><span id="span">i</span><span id="span">s</span><span id="span">t</span><span id="span">o</span><span id="span">r</span><span id="span">y</span> <span id="span">*</span> <span id="span">*</span> <span id="span">*</span></p>
+		<ul id="chatArea">
+			<li id="liLast" class="ulli"></li>
+		</ul>
+	</div>
+	<div id="lastdiv" ></div>
+	<div id="bottombutton"><img class="scroll" src="bottom.png" id="bottom" title="Scroll to bottom"></img></div>
+	<div id="topbutton"><img class="scroll" src="top.png" id="top" title="Scroll to top"></img></div>
+	<div id="hint">
+		<table>
+			<tr><td><b>Bold</b> </td><td>| *text*</td></tr>
+			<tr><td><i>Italis</i> </td><td>| _text_</td></tr>
+			<tr><td><del>deleted</del> </td><td>| ~text~</td></tr>
+			<tr><td>Superscripted<sup>Text</sup> </td><td>| something^[text]</td></tr>
+			<tr><td>To use only <b>"^"</b> </td><td>| use <b>"\^"</b></td></tr>
+			<tr><td><span style="font-family=Consolas'">Consolas Font</span> </td><td>| ```text```</td></tr>
+			<tr><td><mark>Highlighted</mark> </td><td>| ###text###</td></tr>
+			<tr><td>----------------- </td><td>| ----------------</td></tr>
+			<tr><td><u>Underline</u> </td><td>| Comming Soon</td></tr>
+			<tr><td>Subscripted<sub>Text</sub> </td><td>| Comming Soon</td></tr>
+		</table>
+	</div>
+	<button id="reset">Reset</button>
+	<div id="Contact" class="Contact">
+		<span id="close" title="Close" style="position:relative;left:170px;">&nbsp;&nbsp;&#10006;</span>
+		<img src="rahul_dp.jpg" id="myImage" style="height:180px;width:180px;padding:10px;"/>
+		<p style="margin-left:10px; background-color:rgba(0, 0, 0, 0.5);" id="myName" class="ConList">About me...</p>
+		<a href="https://www.facebook.com/imRkMourya"><p id="facebook" title="Facebook" class="ConList">
+			<img src="facebook-icon.png" style="height:45px; width:45px; float:left; margin-top:-15px;"/>Facebook</p></a>
+		<p id="gmail" title="Gmail" class="ConList">
+			<img src="gmail-icon.png" style="height:45px; width:45px; float:left; margin-top:-15px;"/>Gmail</p>
+		<a href="https://www.twitter.com/imRkMourya"><p id="twitter" title="Twitter" class="ConList">
+			<img src="twitter-icon.png" style="height:45px; width:45px; float:left; margin-top:-15px;"/>Twitter</p></a>
+		
+	</div>
+	<div id="ContactB" title="Contact me" class="Contact">Contact</div>
+	<div id="gmailAddress" title="rahulrocks.mourya@gmail.com">rahulrocks.mourya@gmail.com&nbsp;&nbsp;&nbsp;<span id="gmailClose" title="Close" style="cursor:pointer;position:relative;">&nbsp;&nbsp;&#10006;</span></div>
+</div>
+</body>
+</html>

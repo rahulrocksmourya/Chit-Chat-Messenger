@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ChitChat 2.0</title>
+	<link rel="icon" href="https://cdn4.iconfinder.com/data/icons/alphabet-3/500/ABC_alphabet_letter_font_graphic_language_text_R-512.png">
+	<link type="text/css" rel="stylesheet" href="login.css"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="jquery/jquery-3.0.0.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="login.js"></script>
+</head>
+<body>
+<div id="five" style="display:none"></div>
+<div id="fourth" style="display:none">
+		<div id="loader"></div>
+</div>
+<div id="first">
+		<p id="wc">Welcome to ChitChat Messenger</p>
+		<div id="start" class="firstDiv">Start</div>
+		<div id="first2" class="firstDiv"><a href="https://www.google.co.in" style="color:black">Cancel</a></div>
+</div>
+<div id="second">
+		<form id="form_id" method="GET" name="myform">
+		<input id = "username" class="secondDiv" title="Username" type="search" name="name" placeholder="Username"/>
+		<input id="secondDivPass" class="secondDiv" title="Password" type="password" name="pass" placeholder="Password"/>
+		<div  id="NextButton">Next</div>
+		<input type="button" value="Log in" class="secondDiv" id="LogInButton"/>
+		<div class="secondDiv" id="signUpButton">Sign up</div>
+		<p id="wrong" style="position:absolute;top:28.5%;left:40%;"><b style='color:red;font-size:30px;'>Invalid Username and Password ...</b></p>
+		</form>
+</div>
+<div id="third">
+	<h1>
+	You have succesfully login...<br/>If not opened, then allow pop-ups in this browser.
+	</h1>
+</div>
+</body>
+</html>
